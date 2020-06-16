@@ -1,0 +1,47 @@
+h2 {
+    text-align: center;
+}
+
+a {
+    font-size: large;
+}
+
+h3 {
+    background: teal;
+    color: white;
+    font-size: xxx-large;
+    text-align: center;
+    padding: 5%;
+}
+
+h4, p {
+    margin-left: 10%;
+    font-size: xx-large;
+}
+
+div {
+    margin-left: 20%;
+}
+
+footer {
+    position: relative;
+    margin-top: -10px;
+    width: 100%;
+    padding: 30px;
+    clear: both;
+    background: chocolate;
+}
+
+table {
+    border-collapse: collapse;
+    margin-left: 20%;
+}
+td, th {
+    border: 1px solid #ccc;
+    text-align: center;
+    padding: 0,5em;
+}
+
+a {
+    font-size: xx-large;
+}
