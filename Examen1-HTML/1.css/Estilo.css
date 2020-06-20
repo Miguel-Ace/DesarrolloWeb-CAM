@@ -23,6 +23,10 @@ div {
     margin-left: 20%;
 }
 
+#video{
+    text-align: center;
+}
+
 footer {
     position: relative;
     margin-top: -10px;
