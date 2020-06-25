@@ -1,0 +1,57 @@
+/*Modificando los cajones*/
+div{
+    border: solid 1px white;
+}
+/*Modificando las las letras, titulos y parrafos*/
+h3, h5, p{
+    color: white;
+    text-align: center;
+}
+#p1{
+    text-align: justify;
+
+}
+#pc{
+    color: rgb(230, 123, 123);
+}
+#Gaming{
+    color: rgb(200, 169, 200);
+}
+/*Modificando las portadas de los juegos*/
+.MJ{
+    width: 100px;
+    margin: 35px;
+    position: relative;
+}
+.BR{
+    width: 100%;
+    margin: auto;;
+}
+.AR{
+    width: 100px;
+    margin: 35px;
+    position: relative;
+}
+#imagenes1{
+    text-align: center;
+    margin: 5px;
+}
+#imagenes2{
+    text-align: center;
+    margin: 5px;
+}
+}
+/*Modificando los formularios*/
+input{
+    text-align: center;
+}
+hr{
+    height: 2px;
+    background-color: silver;
+}
+.in2{
+    font-size: 15px;
+    color: white;
+    margin: 7px;
+    text-align: center;
+}
