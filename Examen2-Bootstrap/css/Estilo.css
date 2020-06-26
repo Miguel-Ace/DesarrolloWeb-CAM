@@ -17,20 +17,24 @@ h3, h5, p{
 #Gaming{
     color: rgb(200, 169, 200);
 }
+.nombrejuegos{
+    color: black;
+    font-size: 1.5em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.separacion{
+    height: 100px;
+}
 /*Modificando las portadas de los juegos*/
 .MJ{
-    width: 100px;
-    margin: 35px;
-    position: relative;
+    width: 130px;
+    height: 170px;
+    margin: 11px;
 }
 .BR{
-    width: 100%;
-    margin: auto;;
-}
-.AR{
-    width: 100px;
-    margin: 35px;
-    position: relative;
+    width: 130px;
+    height: 170px;
+    margin-top: 30px;
 }
 #imagenes1{
     text-align: center;
@@ -40,7 +44,17 @@ h3, h5, p{
     text-align: center;
     margin: 5px;
 }
+
+/*Modificando abecedario de juegos*/
+#abecedario{
+    text-align: center;
+    list-style: none;
 }
+a{
+    color: white;
+    font-size: 2em;
+}
+
 /*Modificando los formularios*/
 input{
     text-align: center;
@@ -50,8 +64,14 @@ hr{
     background-color: silver;
 }
 .in2{
-    font-size: 15px;
     color: white;
-    margin: 7px;
+    margin: 2px;
     text-align: center;
+}
+.radio{
+    color: white;
+    margin-left: 1em;
+}
+#f1, #f2, #f3, #f4, #f5, #f6, #f7{
+    background-color: rgb(23, 66, 64);
 }
