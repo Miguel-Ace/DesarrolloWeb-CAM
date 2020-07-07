@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOTEL</title>
+    <meta name="Miguel Angel Acevedo Cruz.">
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<style>
+    #contenedor{
+    background-image: url('img/1b.jpg');
+    height: 500px;
+    background-position: center;
+    padding: 20px;
+}
+</style>
+
+<body>
+    <div id="titulo">
+    <h1>RESERVACIÓN DE HABITACIONES</h1>
+    </div>
+    
+    <div id="contenedor">
+    <section>
+        <div>
+        <p>El hotel vista alegre está disponible las 24 horas, los 7 días a la semana. Les ofrecemos varios tipos de habitaciones: individuales, doble, familiar (dos adultos y hasta tres niños) y suite (dos dormitorios con un matrimonial y el toro con dos camas individuales). Nos pueden encontrar en km 7 Carr. Sur Vía Panamericana, Managua o llamar a nuestro numero 22222222.</p></div>
+        <form action="" method="POST">
+            <label for="tipos-habitacion">Tipo de habitaciones</label>
+            <select name="tipos-habitacion" id="tipos-habitacion">
+                <option value="">Individuales</option>
+                <option value="">Dobles</option>
+                <option value="">Familiar</option>
+                <option value="">Suite</option>
+            </select>
+
+            <label for="fumadores">Tipo de cliente</label>
+            <select name="fumadores" id="fumadores">
+                <option value="">Fumador</option>
+                <option value="">No Fumador</option>
+            </select>
+
+            <label for="pais-natal">País de origen</label>
+            <select name="pais-natal" id="pais-natal">
+                <option value="">Nicaragua</option>
+                <option value="">Francia</option>
+                <option value="">Estados Unidos</option>
+                <option value="">España</option>
+                <option value="">China</option>
+                <option value="">Italia</option>
+                <option value="">Turquía</option>
+                <option value="">Alemania</option>
+                <option value="">Reino Unido</option>
+                <option value="">Costa Rica</option>
+                <option value="">Venezuela</option>
+            </select>
+            <br><br>
+            <label for="nombre">Nombre de quien reserva</label>
+            <input id="nombre" type="text" maxlength="30">
+            <label for="num-personas">Número de personas</label>
+            <input id="num-personas" type="number" min="1" max="10">
+            <br><br>
+
+            <div id="">
+                <label for="tiempo-estadia">periodo de la estadía (Días-Noches)</label>
+                <input id="tiempo-estadia" type="number" min="1">
+                </div>
+
+            <div>
+            <legend>Viene con mascota?</legend>
+            <label for="mascota-si">Si</label>
+            <input type="radio" name="mascota" id="mascota-si" value="si">
+            <label for="mascota-no">No</label>
+            <input type="radio" name="mascota" id="mascota-no" value="no">
+            </div>
+
+            
+        </form>
+    </div>
+    </section>
+    </div>
+</body>
+</html>

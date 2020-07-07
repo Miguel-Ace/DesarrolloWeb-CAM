@@ -1,0 +1,43 @@
+body{
+    background-color: beige;
+}
+/*TITULO*/
+
+#titulo{
+    background-color: rgb(36, 117, 131);
+}
+#titulo h1{
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    font-size: 35px;
+}
+/*FORMULARIO*/
+#contenedor section div p{
+    color: white;
+    font-size: 35px;
+}
+#contenedor section form label{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#contenedor section form select{
+    font-size: 30px;
+}
+#contenedor section form input{
+    font-size: 25px;
+}
+#contenedor section div legend{
+    color: white;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#contenedor section form div label{
+    padding: 20px;
+}
+#contenedor section form div{
+    display: inline-block;
+}
