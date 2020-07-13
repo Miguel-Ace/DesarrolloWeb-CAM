@@ -188,3 +188,8 @@ strong{
     color: beige;
     font-size: 20px;
 }
+#ico-inicio{
+    float: left;
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
