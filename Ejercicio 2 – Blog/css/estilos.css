@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-size: 25px;
+    font-family: arial;
+    background-color: beige;
+}
+/*Encabezado*/
+header{
+    background-color: rgb(241, 216, 131);
+    width: 100%;
+    height: 100px;
+    box-shadow: 0px 0px 30px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(23, 33, 65);
+    border-bottom-width: 8px;
+}
+#encabezado{
+    width: 80%;
+    height: 30px;
+    margin: auto;
+}
+/*Logotipo*/
+#logotipo{
+    width: 30%;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-top: 27px;
+    font-size: 40px;
+}
+/*Barra de navegación*/
+#barra-navegacion{
+    width: 60%;
+    height: 30px;
+    float: right;
+    margin-top: 33px;
+}
+#barra-navegacion ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+#barra-navegacion ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    color: black;
+    font-size: 1.4em;
+    border-radius: 7px 7px 0px 0px;
+}
+#barra-navegacion ul li a:hover{
+    background-color: rgb(23, 33, 65);
+    color: white;
+}
+/*Contenido principal*/
+#seccion-principal{
+    width: 80%;
+    height: auto; 
+    overflow: hidden;
+    margin: 10px 10%;
+}
+#sec1{
+    width: 70%;
+    height: auto;
+    overflow: hidden;
+    margin-top: 10px;
+    float: left;
+}
+.post{
+    width: 97%;
+    height: auto;
+    overflow: hidden;
+    padding: 7px;
+    background-color: bisque;
+    margin-bottom: 15px;
+    box-shadow: 0px px 9px;
+}
+.a-sec1{
+    text-decoration: none;
+    display: block;
+    width: 29%;
+}
+.a-sec1 h1{
+    color: black;
+    font-family: initial;
+    font-size: 24px;
+}
+.a-sec1 h1:hover{
+    text-decoration: underline;
+}
+.post img{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 8px 8px 0px 0px;
+    border: 1px solid;
+    border-radius: 8px;
+}
+.datos{
+    font-family: monospace;
+    font-size: 21px;
+    color: royalblue;
+}
+strong{
+    font-size: 22px;
+}
+.leer-mas{
+    float: left;
+}
+.leer-mas a{
+    background: green;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.leer-mas a:hover{
+    background-color: cadetblue;
+}
+.parrafo{
+    font-family: calibri;
+    font-size: 16px;
+    padding: 5px;
+
+}
+.comentarios{
+    background-color: cadetblue;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+.paginacion p a{
+    color: black;
+    text-decoration: none;
+}
+.paginacion p a:hover{
+    text-decoration: underline;
+}
+#sec2{
+    float: right;
+    width: 28%;
+    height: auto;
+    overflow: hidden;
+}
+#Categorias a, #post a{
+    text-decoration: none;
+    display: block;
+    border: 1px solid #ccc;
+    color: #5F9EA0;
+    padding-left: 5px;
+    margin-bottom: 4px;
+}
+.sec2{
+    border-radius: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    height: auto;
+    box-shadow: 0px 0px 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+#buscar input{
+    border: 1px solid #ccc;
+    padding: 10px 4px;
+    box-shadow: 0px 0px 5px;
+    border-radius: 10px;
+    width: 79%;
+    margin-left: 4px;
+    margin-bottom: 4px;
+}
+#buscar .boton{
+    border: 0px;
+    color: white;
+    background: rgb(207, 75, 75);
+    border-radius: 10px;
+    padding: 13px;
+}
+.encabezado-dos{
+    background: sandybrown;
+    width: 100%;
+    height: 35px;
+    text-align: center;
+    color: beige;
+    font-size: 20px;
+}
